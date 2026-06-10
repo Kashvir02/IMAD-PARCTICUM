@@ -4,4 +4,4 @@
 <img width="374" height="750" alt="image" src="https://github.com/user-attachments/assets/95bff668-6044-418f-a03a-8140f3c72e33" /> This is the detailed view screenwhich has a full list of gear and items with a back to base btton this is part of the navigation
 
 
-This is an adventuere app for outdoor activitys for anyone that need to store camping gears and food supplies with arrays included and loops it also conatains error handeling and smooth screen navigation
+This is an adventuere app for outdoor activitys for anyone that need to store camping gears and food supplies with arrays included and loops it also conatains error handeling and smooth screen navigation.This includes a splash screen that has the logo of a pine tree has a dark mode theme appp also has a main main screen for  buttons such as add gear anditems packed also back to base button.also with a detailed view screenand the required functionality with loops and a clear navigation.
