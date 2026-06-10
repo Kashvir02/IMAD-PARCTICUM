@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    // Parallel arrays to store data, initialized with sample data
+    
     private var itemNames = arrayOf("Tent", "Marshmallows")
     private var itemCategories = arrayOf("Shelter", "Food")
     private var itemQuantities = arrayOf(1, 3)
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
 
         btnViewDetails.setOnClickListener {
             val intent = Intent(this, DetailActivity::class.java)
-            // Passing parallel arrays to DetailActivity
+           
             intent.putExtra("itemNames", itemNames)
             intent.putExtra("itemCategories", itemCategories)
             intent.putExtra("itemQuantities", itemQuantities.toIntArray())
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         var totalQuantity = 0
         var checklistSummary = "Quick Checklist:\n"
 
-        // Use a loop to iterate through parallel arrays
+        
         for (i in itemNames.indices) {
             totalQuantity += itemQuantities[i]
             checklistSummary += "• ${itemNames[i]} (${itemQuantities[i]})\n"
