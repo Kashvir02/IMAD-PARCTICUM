@@ -29,8 +29,7 @@ class MainActivity : AppCompatActivity() {
         val tvTotalItems = findViewById<TextView>(R.id.tvTotalItems)
         val tvChecklist = findViewById<TextView>(R.id.tvChecklist)
 
-        // Initial UI update with sample data
-        updateUI(tvTotalItems, tvChecklist)
+
 
         btnAddGear.setOnClickListener {
             val name = etItemName.text.toString()
@@ -45,25 +44,26 @@ class MainActivity : AppCompatActivity() {
                     0
                 }
 
-                // Add to parallel arrays
+
                 itemNames += name
                 itemCategories += category
                 itemQuantities += quantity
                 itemComments += comments
 
-                // Clear inputs
+
                 etItemName.text.clear()
                 etCategory.text.clear()
                 etQuantity.text.clear()
                 etComments.text.clear()
 
-                // Update UI
+
                 updateUI(tvTotalItems, tvChecklist)
                 Toast.makeText(this, "Item added!", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Please fill in all required fields", Toast.LENGTH_SHORT).show()
             }
         }
+
 
         btnViewDetails.setOnClickListener {
             val intent = Intent(this, DetailActivity::class.java)
