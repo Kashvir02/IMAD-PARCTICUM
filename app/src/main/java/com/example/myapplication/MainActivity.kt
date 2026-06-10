@@ -105,7 +105,7 @@ Url: https://medium.com/@manishkumar_75473/building-a-splash-screen-in-android-t
  */
 
 /*
-Author:
+Author:kotlinlang.org
 Date published : 24th march 2026
 Date acessesd: 10 june 2027
 Url: https://kotlinlang.org/docs/multiplatform/compose-navigation-routing.html
